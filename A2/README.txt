@@ -1,3 +1,7 @@
+In this assignment, we were tasked with designing a basic thread scheduler using pthreads. It constists of two kernel level threads, one which handles the actual scheduling and another which handles I/O operations. 
+
+----------------------
+
 We use the threaddesc struct to represent tasks, and the IOrequest struct to represent IO requests. 
 There are three queues:
     1) The ready queue is populated by tasks (threaddesc objects) that are ready to be run by CEXEC 
