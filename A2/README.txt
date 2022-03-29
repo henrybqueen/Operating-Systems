@@ -1,4 +1,5 @@
-In this assignment, we were tasked with designing a basic thread scheduler using pthreads. It constists of two kernel level threads, one which handles the actual scheduling and another which handles I/O operations. 
+In this assignment, we were tasked with designing a basic thread scheduler using pthreads. It constists of two kernel level threads, 
+one which handles the actual scheduling and another which handles I/O operations. 
 
 ----------------------
 
