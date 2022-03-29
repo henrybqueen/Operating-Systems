@@ -4,4 +4,4 @@ In this assignment, we were tasked with designing a memory manager for a simulat
 2) reading and writing from existing files
 3) traversing the directory.
 
-Note that there are many supporting files needed to run this program which aren't included here (provided by instructor).
+Note that there are many supporting files provided by the instructor needed to run this program which aren't included here.
