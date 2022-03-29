@@ -61,14 +61,6 @@ int get_fd(int);
 int secure_block(int, int, int);
 
 
-/* 
-
-I'm not sure whats going on with iNode_table_length, it seems to
-be computed correctly, but it is messing with memory when
-i try to read the last block with read_blocks, so only
-read all blocks except the last one in read_from_disk
-
-*/
 /* assumes super block has been allocated */
 void init_super() {
     super_block->magicNumber=0xACBD0005;
